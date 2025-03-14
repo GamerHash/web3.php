@@ -1,5 +1,5 @@
 {
-    "name": "web3p/web3.php",
+    "name": "gamerhash/web3.php",
     "description": "Ethereum web3 interface.",
     "type": "library",
     "license": "MIT",
@@ -10,14 +10,14 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.3|^7.0",
-        "PHP": "^7.2|^8.0",
+        "guzzlehttp/guzzle": "^7.5|^8.0",
+        "PHP": "^8.0|^8.2",
         "kornrunner/keccak": "~1.0",
-        "phpseclib/phpseclib": "~2.0.30",
+        "phpseclib/phpseclib": "^3.0",
         "ext-mbstring": "*",
         "react/http": "^1.6.0",
         "react/async": "^4.0.0|^3.1.0",
-        "react/promise": "^2.9.0",
+        "react/promise": "^3.2.0",
         "react/event-loop": "^1.2",
         "react/socket": "^1.13",
         "ratchet/pawl": "^0.4.1",
